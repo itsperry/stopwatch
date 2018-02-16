@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="NL">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/timer.css">
+    <title>Index - Stopwatch</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <center>
+          <ul class="menu">
+            <li class="menuli">
+			  <button class="button2" id="toggle1">Start</button>
+      		  <button class="button2" id="reset1">Reset</button>
+              <button class="button" onclick="start()">Start all</button>
+              <button class="button" onclick="window.location.href='index.html'">Reset all</button>
+        	  <button class="button2" id="reset2">Reset</button>
+			  <button class="button2" id="toggle2">Start</button>
+            </li>
+          </ul>
+        </center>
+      </div>
+      <div class="stopwatch">
+        <div class="stopwatchleft">
+          <p class="content">
+            <h1 class="blauw">Team Blauw</h1>
+          </p>
+          <p class="contentcounter">
+				<br>
+      		    <center><h1 style="font-size: 50px;" id="timer1">00 : 00 . 000</h1></center>
+          </p>
+        </div>
+        <div class="stopwatchright">
+          <p class="content">
+            <h1 class="oranje">Team Oranje</h1>
+          </p>
+          <p class="contentcounter">
+				<br>
+        		<center><h1 style="font-size: 50px;" id="timer2">00 : 00 . 000</h1></center>
+          </p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <script src="js/stopwatch.js"></script>
+      <script src="js/main1.js"></script>
+      <script src="js/main2.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/keystroke.js"></script>
+      <div class="footer">
+        <img src="images/horizoncollege.png" alt="horizoncollege">
+      </div>
+    </div>
+  </body>
+</html>
